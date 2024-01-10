@@ -1,0 +1,20 @@
+.pagination > ul {
+  list-style: none;
+  float: right;
+}
+
+.pagination > li {
+  @apply bg-slate-100 text-slate-950 inline-block border p-3 border-solid border-[white];
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pagination > .selected {
+  @apply bg-[rgb(17,24,39)];
+  color: white;
+}
